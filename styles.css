@@ -76,7 +76,6 @@ body {
 }
 .mobile-menu {
     display: none;
-	float: right;
 }
 
 
@@ -87,6 +86,7 @@ body {
     display: block;
     margin-right: 20px;
     margin-top: 20px;
+	float: right;
 }
 .btn-container {
     display: none;
@@ -96,6 +96,6 @@ body {
     display: block;
     text-decoration: none;
     margin-top: 11px;
-    top: auto;
+    top: -1px;
 }
 }
