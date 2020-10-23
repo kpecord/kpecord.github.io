@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.tutor-header {
+    max-width: 2000px;
+    min-height: 100px;
+    background-color: hsla(281,100%,50%,0.46);
+}
