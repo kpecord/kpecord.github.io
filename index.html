@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <title>New Orleans Tutoring Home Page</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://use.typekit.net/brh5wvm.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
 </head>
 
 
@@ -13,12 +14,15 @@
 <div class = "hero-image">
 	
 <header class = "tutor-header"><img class = "header-logo" src="images/tutor-logo-vector.svg" alt="New Orleans Tutor Home" width="200"/>
+
+  <div class = "mobile-menu"><img src="images/Nav Sandwich.svg" alt="" width="50"/></div>
+
   <nav class = "tutor-nav">
 	  
 	  <div class = "btn-container"><ul>
-		  <li class="btn-purple">Tutoring</li>
-		  <li class="btn-purple">About Me</li>
-		  <li class="btn-purple">Contact</li>
+		  <a href= "#"><li class="expand btn-purple">Tutoring</li></a>
+		  <a href= "#"><li class="expand btn-purple">About Me</li></a>
+		  <a href= "#"><li class="expand btn-purple">Contact</li></a>
 		  </ul></div>
 	  
 	</nav>

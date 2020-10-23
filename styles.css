@@ -72,6 +72,30 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     height: 30px;
+    margin-right: 7px;
+}
+.mobile-menu {
+    display: none;
+	float: right;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media (max-width: 650px){
+.mobile-menu {
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btn-container {
+    display: none;
+}
+
+.expand {
+    display: block;
+    text-decoration: none;
+    margin-top: 11px;
+    top: auto;
+}
+}
