@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .tutor-header {
     max-width: 1500px;
     min-height: 83px;
@@ -51,12 +52,12 @@ body {
     -moz-border-radius : 20px;
     -webkit-border-radius : 20px;
     padding-left: 15px;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 5px;
     margin-top: 9px;
     margin-bottom: auto;
     color : rgb(229, 229, 229);
-    font-family: europa, sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-weight: 700;
     font-style: normal;
     margin-right: 10px;
@@ -72,3 +73,5 @@ body {
     margin-bottom: auto;
     height: 30px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
